@@ -1,15 +1,20 @@
 @tailwind base;
+
+body {
+    font-family: var(--font-plus-jakarta-sans), Arial, Helvetica, sans-serif;
+}
+
 @tailwind components;
 @tailwind utilities;
 
 /* remove animations for people who've turned them off */
 @media (prefers-reduced-motion: reduce) {
-  *,
-  *::before,
-  *::after {
-      animation-duration: 0.01ms !important;
-      animation-iteration-count: 1 !important;
-      transition-duration: 0.01ms !important;
-      scroll-behavior: auto !important;
-  }
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
 }

@@ -2,11 +2,11 @@
 
 ## Technologies Used
 
-- Next.js
-- React
-- TypeScript
-- ESLint
-- Tailwind CSS
+-   Next.js
+-   React
+-   TypeScript
+-   ESLint
+-   Tailwind CSS
 
 ## Author
 
